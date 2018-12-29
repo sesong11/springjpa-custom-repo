@@ -9,6 +9,10 @@ public class Student {
     @Id
     private long id;
     private String name;
+
+    public Student() {
+        //Default constructor for hibernate
+    }
      
     public Student(int id, String name) {
 		this.id = id;
