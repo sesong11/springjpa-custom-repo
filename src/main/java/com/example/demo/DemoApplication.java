@@ -7,8 +7,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@ComponentScan("com.example.demo.dao*")
-@EntityScan("com.example.demo.entity.*")
+@ComponentScan("com.example.demo")
+@EntityScan("com.example.demo.entity")
 @EnableTransactionManagement
 public class DemoApplication {
 
