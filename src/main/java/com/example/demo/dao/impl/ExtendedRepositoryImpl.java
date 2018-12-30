@@ -12,6 +12,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.data.jpa.repository.support.JpaEntityInformation;
 import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
+import org.springframework.stereotype.Repository;
 
 import com.example.demo.dao.ExtendedRepository;
 

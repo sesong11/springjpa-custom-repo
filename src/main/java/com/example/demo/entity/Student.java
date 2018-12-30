@@ -9,10 +9,8 @@ public class Student {
     @Id
     private long id;
     private String name;
-
 	
-	  Student() {}
-
+	Student() {}
      
     public Student(int id, String name) {
 		this.id = id;
