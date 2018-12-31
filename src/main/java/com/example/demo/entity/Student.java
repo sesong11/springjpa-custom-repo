@@ -12,8 +12,8 @@ public class Student {
 	
 	Student() {}
      
-    public Student(int id, String name) {
-		this.id = id;
+    public Student(long id, String name) {
+    	this.id = id;
 		this.name = name;
 	}
 	public long getId() {return id;}
